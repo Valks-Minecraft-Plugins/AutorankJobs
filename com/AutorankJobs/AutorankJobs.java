@@ -46,6 +46,7 @@ public class AutorankJobs extends JavaPlugin {
 		pm.registerEvents(new LoadPlayerFiles(), this);
 		pm.registerEvents(new Currency(), this);
 		pm.registerEvents(new RankChat(), this);
+		pm.registerEvents(new Jobs(), this);
 	}
 
 	private void registerCommands() {

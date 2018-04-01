@@ -24,8 +24,7 @@ public class CheckRank {
 		if (rankLevel <= RANKS) {
 			if (!config.getString("rank").equals(ranks.get(rankLevel))){
 				config.set("rank", ranks.get(rankLevel));
-			} else {
-				p.sendMessage(ChatColor.DARK_GREEN + "You ranked up to " + ranks.get(rankLevel));
+				p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aYou ranked up to " + ranks.get(rankLevel)));
 			}
 		}
 	}
